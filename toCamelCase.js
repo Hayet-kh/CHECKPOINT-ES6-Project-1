@@ -1,5 +1,7 @@
+//https://www.codewars.com/kata/517abf86da9663f1d2000003
+
 // Return the camelCase version of the string
-toCamelCase = (str) =>
+const toCamelCase = (str) =>
 	str.replace(/[-_ ]\w/gi, (el) => el.charAt(1).toUpperCase());
 
 // Another way to solve the problem
